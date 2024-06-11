@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717843212847' stop='1717843212847'>
+    <name>Registration Fixture</name>
+    <title>Registration Fixture</title>
+    <test-cases>
+        <test-case start='1717843212847' status='passed' stop='1717843227692'>
+            <name>User registration and Login page</name>
+            <title>User registration and Login page</title>
+            <labels>
+                <label name='severity' value='blocker'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 125.0.0.0 / Windows 11'/>
+                <parameter kind='argument' name='JIRA Story Link' value='https://jira.example.ca/browse/NEO-002'/>
+                <parameter kind='argument' name='JIRA Test Link' value='https://jira.example.ca/secure/Tests.jspa#/testCase/TC_002'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

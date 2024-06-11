@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717840848923' stop='1717840848934'>
+    <name>Registration Fixture</name>
+    <title>Registration Fixture</title>
+    <test-cases>
+        <test-case start='1717840848923' status='failed' stop='1717840891173'>
+            <name>User registration and Login page</name>
+            <title>User registration and Login page</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 125.0.0.0 / Windows 11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='987481d2-12d5-477c-89d1-8de76bc966e7-attachment.png' type='image/png' size='1821112'/>
+            </attachments>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The specified selector does not match any element in the DOM tree.
+                
+                   | Selector('a')
+                 > |   .withText('Log in')
+                
+                Browser: Chrome 125.0.0.0 / Windows 11
+                Screenshot: D:\BAckup\Documents\PracticeTestCafePOM\report\screenshots\2024-06-08_15-28-15\test-6\Chrome_125.0.0.0_Windows_11\errors\2.png
+                
+                   41 |
+                   42 |        //Logout
+                   43 |        .click(HomePage.logoutLink)
+                   44 |        
+                   45 |        //Login with register account
+                 > 46 |        .click(HomePage.loginLink)
+                   47 |        .expect(LoginPage.pageHeader.exists).ok()
+                   48 |        .typeText(LoginPage.emailInput, data.email+randomNumber+'@test.com')
+                   49 |        .typeText(LoginPage.passwordInput, data.password)
+                   50 |        .click(LoginPage.loginButton)
+                   51 |
+                
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\test\RegistrationTest.js:46:10)
+                   at asyncGeneratorStep (D:\BAckup\Documents\PracticeTestCafePOM\test\RegistrationTest.js:5:50)
+                   at _next (D:\BAckup\Documents\PracticeTestCafePOM\test\RegistrationTest.js:5:50)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

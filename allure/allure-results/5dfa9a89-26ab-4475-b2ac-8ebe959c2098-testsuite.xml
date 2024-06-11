@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717840780638' stop='1717840780653'>
+    <name>E2E Fixture</name>
+    <title>E2E Fixture</title>
+    <test-cases>
+        <test-case start='1717840780638' status='failed' stop='1717840815419'>
+            <name>Place Order E2E test</name>
+            <title>Place Order E2E test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 125.0.0.0 / Windows 11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a6cdb82b-5d66-41a8-ac25-c7ee56bbda8d-attachment.png' type='image/png' size='139717'/>
+            </attachments>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The action target (&lt;select data-trigger="country-select" data-url="/country/getstatesbycountryid" data-stateprovince="#BillingNewAddress_StateProvinceId" data-loading="#states-loading-progress" data-val="true" data-val-required="Country is required." id="BillingNewAddress_CountryId" name="BillingNewAddress.CountryId">...&lt;/select>) is invisible. 
+                It descends from an element that has the 'display: none' property (&lt;div id="checkout-step-billing" class="step a-item" style="display:none">...&lt;/div>).
+                
+                Browser: Chrome 125.0.0.0 / Windows 11
+                Screenshot: D:\BAckup\Documents\PracticeTestCafePOM\report\screenshots\2024-06-08_15-28-15\test-3\Chrome_125.0.0.0_Windows_11\errors\1.png
+                
+                   19 |    }
+                   20 |
+                   21 |    async selectCountry(country){
+                   22 |        const countryOption = this.countyList.find('option')
+                   23 |        await t
+                 > 24 |            .click(this.countyList)
+                   25 |            .click(countryOption.withText(country))
+                   26 |    }
+                   27 |}
+                   28 |
+                   29 |export default new CheckOutPage();
+                
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:24:14)
+                   at asyncGeneratorStep (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at _next (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at CheckOutPage.selectCountry [as selectCountry] (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:25:52)
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:77:24)
+                   at asyncGeneratorStep (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:9:60)
+                   at _next (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:9:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

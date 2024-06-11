@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 08 16:09:57 IST 2024","Sat Jun 08 16:09:59 IST 2024","1778","","Registration Fixture","","Registration Fixture","Assert Home Page URL","Assert Home Page URL",""
+"failed","Sat Jun 08 15:29:40 IST 2024","Sat Jun 08 15:30:15 IST 2024","34781","","E2E Fixture","","E2E Fixture","Place Order E2E test","Place Order E2E test",""
+"failed","Sat Jun 08 15:30:48 IST 2024","Sat Jun 08 15:31:31 IST 2024","42250","","Registration Fixture","","Registration Fixture","User registration and Login page","User registration and Login page",""
+"passed","Sat Jun 08 16:07:20 IST 2024","Sat Jun 08 16:07:40 IST 2024","19830","","E2E Fixture","","E2E Fixture","Assert Home Page","Assert Home Page",""
+"passed","Sat Jun 08 16:10:28 IST 2024","Sat Jun 08 16:10:43 IST 2024","15211","","Registration Fixture","","Registration Fixture","User registration and Login page","User registration and Login page",""
+"failed","Sat Jun 08 16:09:55 IST 2024","Sat Jun 08 16:11:05 IST 2024","70470","","E2E Fixture","","E2E Fixture","Place Order E2E test","Place Order E2E test",""

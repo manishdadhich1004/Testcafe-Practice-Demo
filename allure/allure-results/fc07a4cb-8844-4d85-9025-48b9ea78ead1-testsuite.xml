@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717840745252' stop='1717840745280'>
+    <name>E2E Fixture</name>
+    <title>E2E Fixture</title>
+    <test-cases>
+        <test-case start='1717840745252' status='failed' stop='1717840790463'>
+            <name>Place Order E2E test</name>
+            <title>Place Order E2E test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 125.0.0.0 / Windows 11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5febaafa-08ff-4c9b-9227-67f5673f643a-attachment.png' type='image/png' size='1046147'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: expected false to be truthy</message>
+                <stack-trace>AssertionError: expected false to be truthy
+                
+                Browser: Chrome 125.0.0.0 / Windows 11
+                Screenshot: D:\BAckup\Documents\PracticeTestCafePOM\report\screenshots\2024-06-08_15-28-15\test-2\Chrome_125.0.0.0_Windows_11\errors\1.png
+                
+                   60 |    .expect(ProductDetailPage.productPrice.exists).ok()
+                   61 |    .selectText(ProductDetailPage.productQuantity).pressKey('delete')
+                   62 |    .typeText(ProductDetailPage.productQuantity, '3')
+                   63 |    .click(ProductDetailPage.addToCart)
+                   64 |    .wait(3000)
+                 > 65 |    .expect(ProductDetailPage.successMessage.visible).ok()
+                   66 |
+                   67 |    //cart and checkout
+                   68 |    .click(HomePage.cartLink)
+                   69 |    .expect(ShoppingCartPage.validateProductName.exists).ok()
+                   70 |    .expect(ShoppingCartPage.validateCartQuantity.value).contains('3')
+                
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:65:55)
+                   at asyncGeneratorStep (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:9:60)
+                   at _next (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:9:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

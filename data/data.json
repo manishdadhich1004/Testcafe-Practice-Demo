@@ -1,0 +1,31 @@
+[
+    {
+        "firstName": "Manish Kumar",
+        "lastname": "Dadhich",
+        "email":"manish",
+        "birthday": "10",
+        "birthmonth": "March",
+        "birthyear": "1988",
+        "password": "123456", 
+        "country": "Germany",
+        "city": "Berlin",
+        "address": "Test Address",
+        "zip": "2356465",
+        "phone": "+4445458566"
+    },
+    {   
+        "firstName": "Adhyansh",
+        "lastname": "Dadhich",
+        "email":"adhyansh",
+        "birthday": "12",
+        "birthmonth": "March",
+        "birthyear": "2017",
+        "password": "123456",
+        "country": "India",
+        "city": "Jaipur",
+        "address": "Test Address",
+        "zip-code": "302012",
+        "phone": "+4445458566"
+ 
+    }
+]

@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"384c3d6a2712564dd0213fad7b56e1ec","name":"E2E Fixture","statistic":{"failed":2,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":3}},{"uid":"f48145eb3b8a24fa7fb6d0f2e9839641","name":"Registration Fixture","statistic":{"failed":1,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":3}}]}

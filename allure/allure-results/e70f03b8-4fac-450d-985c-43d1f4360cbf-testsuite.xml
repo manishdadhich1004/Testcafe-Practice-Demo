@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1717843123995' stop='1717843124008'>
+    <name>E2E Fixture</name>
+    <title>E2E Fixture</title>
+    <test-cases>
+        <test-case start='1717843123995' status='failed' stop='1717843206474'>
+            <name>Place Order E2E test</name>
+            <title>Place Order E2E test</title>
+            <labels>
+                <label name='severity' value='Highest'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 125.0.0.0 / Windows 11'/>
+                <parameter kind='argument' name='JIRA Story Link' value='https://jira.example.ca/browse/NEO-003'/>
+                <parameter kind='argument' name='JIRA Test Link' value='https://jira.example.ca/secure/Tests.jspa#/testCase/TC_003'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a518a11b-7b02-4dea-9a8d-6938093ba4d1-attachment.png' type='image/png' size='188814'/>
+            </attachments>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The specified selector does not match any element in the DOM tree.
+                
+                 > | Selector('select[id='BillingNewAddress_CountryId']')
+                
+                Browser: Chrome 125.0.0.0 / Windows 11
+                Screenshot: D:\BAckup\Documents\PracticeTestCafePOM\report\screenshots\2024-06-08_16-06-59\test-2\Chrome_125.0.0.0_Windows_11\errors\1.png
+                
+                   19 |    }
+                   20 |
+                   21 |    async selectCountry(country){
+                   22 |        const countryOption = this.countyList.find('option')
+                   23 |        await t
+                 > 24 |            .click(this.countyList)
+                   25 |            .click(countryOption.withText(country))
+                   26 |    }
+                   27 |}
+                   28 |
+                   29 |export default new CheckOutPage();
+                
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:24:14)
+                   at asyncGeneratorStep (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at _next (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:1:40)
+                   at CheckOutPage.selectCountry [as selectCountry] (D:\BAckup\Documents\PracticeTestCafePOM\pages\CheckOutPage.js:25:52)
+                   at &lt;anonymous> (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:81:24)
+                   at asyncGeneratorStep (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:9:60)
+                   at _next (D:\BAckup\Documents\PracticeTestCafePOM\test\E2ETest.js:9:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
